@@ -28,21 +28,31 @@ Two default maze files are available, `sample.maze` which presents the generates
 
 ## Code
 
-* `dp.py`
-* `generate_data.py`
-* `jugs.py`
-* `load_data.py`
-* `longest_subsequence.py`
-* `maze.py`
-* `recursion.py`
-* `single.py`
-* `subset.py`
-* `task_solutions.py`
-* `tic_tac_toe.py`
-* `visualize_bfs.py`
-* `visualize_dfs.py`
-* `visualize_dfs_recursive.py`
-* `visualize_search.py`
+There are three modules for the course, each with its own set of code files:
+
+### Module 1: Introduction to Problem Solving
+
+* `generate_data.py` -- Helper code to generate `data.csv` used for this module
+* `load_data.py` -- Different approaches represent data from a stored file
+* `task_solutions.py` -- Solutions to the tasks described in Module 1
+* `jugs.py` -- Solution of a logic puzzle involving two jugs of water
+
+### Module 2: Problem Solving with Recursion
+
+* `maze.py` -- An example rectangular maze where rooms are either empty or contain a wall. The goal is to find a path from the start of the maze to the end of the maze by only traversing up, down, left, and right through empty rooms.
+* `recursion.py` -- An example of recursion, using the mathematical Choose(n, k) operation that is defined based on the factorial function
+* `single.py` -- A trivial version of Tic-Tac-Toe with only a single row, to demonstrate the mechanics of the recursive approach
+* `visualize_bfs.py` -- Visualize the Breadth-First Search over a rectangular maze. Optionally store images of the search as it progresses
+* `visualize_dfs.py` -- Visualize the Depth-First Search over a rectangular maze. Optionally store images of the search as it progresses
+* `visualize_dfs_recursive.py` -- Visualize the Depth-First Search implemented using recursion over a rectangular maze. Optionally store images of the search as it progresses
+* `visualize_search.py` -- Helper code containing functions to visualize elements of a maze, such as the walls and the computed solution
+* `tic_tac_toe.py` -- Full solution for computing the total number of unique Tic-Tac-Toe boards, including further reductions because of symmetry
+
+### Module 3: Dynamic Programming
+
+* `dp.py` -- Solutions to the several problems that can be solved iteratively, recursively, or using Dynamic Programming: (a) Find largest value in a list; (b) Find longest consecutive sublist of increasing values in a list; (c) Find length of longest subsequence of increasing values in a list
+* `longest_subsequence.py` -- Dynamic Programming solution for the Longest Common Subsequence
+* `subset.py` -- Dynamic Programming solution for determining if a subset of values in a list sums to a target value
 
 # Dependencies
 
